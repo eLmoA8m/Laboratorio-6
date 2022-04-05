@@ -2,49 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Ejercicio 3.1</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Ejercicio 3.1</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">¿Qué comprar? PC´S</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/Monitor.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
-                    Monitores
-                  </a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/Hardware.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
-                    Hardware
-                  </a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/Sillas.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
-                    Sillas
-                  </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand bg-secondary" href="#">¿Qué comprar? Gaming</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand" id="tab-Monitores" href="Monitores.html">
+              <img src="imagenes/Monitor.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+              Monitores
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="Hardware.html">
+              <img src="imagenes/Hardware.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+              Hardware
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="Sillas.html">
+              <img src="imagenes/Sillas.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+              Sillas
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <div class="container-fluid text-center">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Buenas!</strong> Recuerden que esto es unicamente mi opinión, si no coincides conmigo
+      esta perfecto !:)
+
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+
+
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+
+          <div class="container-fluid card " style="width: 18rem;">
+            <img src="imagenes/Recomendaciones.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Dentro de esta pagina veremos algunos recomendaciones y data acerca del mundo del pc
+                gaming.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hardware importante (Tarjeta grafica, procesador y tarjeta madre compatible.)
+              </li>
+              <li class="list-group-item">Algunos tipos de sillas que hay.</li>
+              <li class="list-group-item">El mejor monitor de gama media del mercado.</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://diario16.com/tipos-de-sillas-gaming/?msclkid=7b393850b49911ec8e5756f8c6905498"
+                class="card-link">De donde saque la info de las sillas?</a>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-12 col-lg-8">
+          <h1>Videos que utilice para la realización de la pagina:</h1>
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/J9rCiFzZocM" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/uEvXhFFpmPg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="./funcion.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
 </body>
 
 </html>
