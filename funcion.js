@@ -1,7 +1,7 @@
 let url = window.location.href;
 
 /// Elementos de li
-const tabs = ["index", "conocenos", "obras", "galeria", "premios", "contacto"];
+const tabs = ["Hardware", "Monitores", "Sillas", "index"];
 
 tabs.forEach(e => {
     /// Agregar .php y ver si lo contiene en la url
